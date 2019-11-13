@@ -345,6 +345,10 @@ class CfgYamlReader(CfgReader):
         D = {
             'F.Cu': pcbnew.F_Cu,
             'B.Cu': pcbnew.B_Cu,
+            'In1.Cu': pcbnew.In1_Cu,
+            'In2.Cu': pcbnew.In2_Cu,
+            'In3.Cu': pcbnew.In3_Cu,
+            'In4.Cu': pcbnew.In4_Cu,
             'F.Adhes': pcbnew.F_Adhes,
             'B.Adhes': pcbnew.B_Adhes,
             'F.Paste': pcbnew.F_Paste,
